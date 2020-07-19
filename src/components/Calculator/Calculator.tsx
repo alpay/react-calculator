@@ -28,9 +28,9 @@ const Calculator: FC<Props> = ({ className, onClick }) => {
     setDisplayValue('0');
   }
 
-  const clearLastChar = () => {
-    setDisplayValue(displayValue.substring(0, displayValue.length - 1) || '0');
-  }
+  // const clearLastChar = () => {
+  //   setDisplayValue(displayValue.substring(0, displayValue.length - 1) || '0');
+  // }
 
   const inputDot = () => {
     // if it doesn't contain any dot
