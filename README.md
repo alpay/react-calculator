@@ -1,3 +1,11 @@
+# Work In Progress ....
+
+## Demo
+
+You can view the demo at [here](https://react-calculator-demo.netlify.app/)
+
+## Boilerplate
+
 This project was set up with following [CRA Recipe](https://github.com/atolye15/cra-recipe).
 
 ## Available Scripts
