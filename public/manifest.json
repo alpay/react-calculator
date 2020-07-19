@@ -1,6 +1,6 @@
 {
-  "short_name": "CRA Starter",
-  "name": "CRA Starter",
+  "short_name": "React Calculator",
+  "name": "React Calculator",
   "icons": [
     {
       "src": "favicon.ico",

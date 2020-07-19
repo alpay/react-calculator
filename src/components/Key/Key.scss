@@ -1,0 +1,29 @@
+@import "../../styles/index";
+
+.Key {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    font-size: 2rem;
+
+    @for $i from 1 through 4 {
+        &.Column-#{$i} {
+            grid-column: span $i;
+        }
+    }
+
+    &-operand {
+        background-color: $color-orange;
+        color: $color-white;
+    }
+
+    &-number {
+        background-color: $color-brown;
+        color: $color-white;
+    }
+
+    &-special {
+        background-color: $color-grey;
+        color: $color-black;
+    }
+}

@@ -1,15 +1,20 @@
 @import "../../styles/index";
 
 .Calculator {
-  padding: 1rem 2rem;
+  width: 320px;
+  background-color: black;
 
-  &-primary {
-    background-color: $color-primary;
-    color: $white-color;
+  .display {
+    height: 100px;
+    padding: 10px;
   }
 
-  &-secondary {
-    background-color: $color-secondary;
-    color: $black-color;
+  .keypad {
+    display: grid;
+    height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
   }
 }

@@ -1,8 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Button from './Button';
+import Calculator from './Calculator';
 
-storiesOf('Button', module)
-  .add('Primary', () => <Button primary>Primary Button</Button>)
-  .add('Secondary', () => <Button secondary>Secondary Button</Button>);
+storiesOf('Calculator', module)
+  .add('Calculator', () => <Calculator>Primary Button</Calculator>)
